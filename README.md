@@ -28,7 +28,7 @@ function transitive(x,y,z) {
 }
 ```
 ```
-transitive([],0,[]);
+transitive("0",0,"");
 ```
 
 
@@ -247,6 +247,9 @@ native(function(){return 1}.bind(null));
 function infinity(x, y) {
     return x === y && 1/x < 1/y 
 }
+```
+```
+infinity(-0,0);
 ```
 
 ### stringable
